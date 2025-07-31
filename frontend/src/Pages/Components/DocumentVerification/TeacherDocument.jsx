@@ -286,5 +286,4 @@ const TeacherDocument = () => {
     </>
   );
 };
-
 export default TeacherDocument;
