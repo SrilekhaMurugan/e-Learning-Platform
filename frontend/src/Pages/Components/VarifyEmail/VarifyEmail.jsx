@@ -20,5 +20,4 @@ function VarifyEmail() {
     </>
   )
 }
-
 export default VarifyEmail
