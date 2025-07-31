@@ -157,5 +157,4 @@ function VarifyDoc() {
         </>
     );
 }
-
 export default VarifyDoc;
