@@ -54,7 +54,6 @@ function search() {
         setOpenTM(true);
     }
 
-
   return (
     <>
         <Header/>
