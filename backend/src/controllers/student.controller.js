@@ -397,8 +397,6 @@ const  resetPassword= asyncHandler(async (req, res) => {
     }
 });
 
-
-
 export{
     signup,
      mailVerified,
