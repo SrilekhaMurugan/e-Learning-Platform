@@ -43,6 +43,4 @@ router.route('/forgetpassword').post(forgetPassword)
 
 router.route('/forgetpassword/:token').post(resetPassword)
 
-
-
 export default router;
