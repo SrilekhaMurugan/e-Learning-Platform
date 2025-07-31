@@ -5,6 +5,7 @@ import '../Landing/Landing.css'
 import Footer from "../../Footer/Footer.jsx"
 import Header from '../Header/Header.jsx';
 
+
 function About({backgroundC}) {
   return (
     <>
