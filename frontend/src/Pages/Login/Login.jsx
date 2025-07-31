@@ -12,8 +12,6 @@ export default function Login() {
   const [errors, setErrors] = useState({});
   const [userType, setUserType] = useState('');
   const [err, setErr] = useState('');
-
-
   const navigate=useNavigate()
 
   // Function to handle form submission
