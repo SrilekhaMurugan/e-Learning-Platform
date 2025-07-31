@@ -11,7 +11,6 @@ const authAdmin = asyncHandler(async(req,_,next) =>{
         throw new ApiError(401, "unauthorized req")
     }
 
-
     const decodedAccToken = jwt.verify(accToken,
         process.env.ACCESS_TOKEN_SECRET)
 
@@ -23,7 +22,6 @@ const authAdmin = asyncHandler(async(req,_,next) =>{
 
     req.Admin = Admin
     next()
-
     
 })
 
