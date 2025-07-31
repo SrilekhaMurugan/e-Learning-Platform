@@ -241,7 +241,6 @@ const TeacherDetailsSchema = new mongoose.Schema({
     timestamps:true,
 })
 
-
 const Teacher = mongoose.model("teacher",teacherSchema)
 
 const Teacherdocs = mongoose.model("teacherdocs", TeacherDetailsSchema)
