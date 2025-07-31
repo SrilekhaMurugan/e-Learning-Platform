@@ -116,5 +116,4 @@ const ResetTeacher = () => {
     </div>
   );
 };
-
 export default ResetTeacher;
