@@ -37,5 +37,4 @@ function Radiobtn({userType,setUserType}) {
     </>
   );
 }
-
 export default Radiobtn;
