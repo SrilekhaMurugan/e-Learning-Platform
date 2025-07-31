@@ -520,10 +520,8 @@ const approveCourse = asyncHandler(async(req,res)=>{
         .status(200)
         .json(new ApiResponse(200,{},`Course rejected successfully`))
     }
-    
 
-   
-
+    #
 })
 export {adminSignUp, adminLogin, forApproval, approveStudent, approveTeacher, checkStudentDocuments, checkTeacherDocuments, adminLogout, sendmessage, allmessages,readMessage, toapproveCourse, approveCourse}
 
