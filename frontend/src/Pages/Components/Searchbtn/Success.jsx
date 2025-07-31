@@ -13,5 +13,4 @@ function Success({onClose}) {
     </div>
   )
 }
-
 export default Success
