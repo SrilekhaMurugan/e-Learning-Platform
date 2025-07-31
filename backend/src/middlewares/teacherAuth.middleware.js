@@ -3,6 +3,7 @@ import {Teacher} from "../models/teacher.model.js";
 import jwt from "jsonwebtoken";
 import { asyncHandler } from "../utils/asyncHandler.js";
 
+
 const authTeacher = asyncHandler(async(req,_,next)=>{
     const accToken = req.cookies?.Accesstoken
 
