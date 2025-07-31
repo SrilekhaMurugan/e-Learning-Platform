@@ -232,5 +232,4 @@ const StudentDocument = () => {
     </>
   );
 };
-
 export default StudentDocument;
