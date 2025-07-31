@@ -3,6 +3,7 @@ import Camera from '../Images/Camera.png'
 import Clock from '../Images/Clock.png'
 import { NavLink, useParams } from 'react-router-dom'
 
+
 function StudentClasses() {
     const { ID } = useParams();
     const [data, setdata] = useState([]);
