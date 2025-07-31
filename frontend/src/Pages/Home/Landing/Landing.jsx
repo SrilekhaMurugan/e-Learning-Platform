@@ -11,6 +11,7 @@ import { IoSchoolSharp } from "react-icons/io5";
 import { FaSchool } from "react-icons/fa";
 import { NavLink , useNavigate} from "react-router-dom";
 
+
 function Landing() {
   const [LClass, setLClass] = useState(false);
   const [EMentor, setEMentor] = useState(false);
