@@ -369,9 +369,7 @@ const ForgetPassword=asyncHandler(async(req,res)=>{
  
          if (!user) {
              throw new ApiError(400, 'Token is invalid or expired. Please try again.');
-         }
- 
-    
+         }   
  
          user.Password = password; 
          user.forgetPasswordExpiry = undefined;
