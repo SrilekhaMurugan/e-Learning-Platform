@@ -10,5 +10,4 @@ const Input = ({label ,placeholder,value,onChange}) => {
     </div>
   )
 }
-
 export default Input
