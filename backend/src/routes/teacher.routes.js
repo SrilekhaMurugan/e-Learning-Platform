@@ -4,7 +4,6 @@ import {upload} from "../middlewares/multer.middleware.js"
 import { authTeacher } from "../middlewares/teacherAuth.middleware.js";
 import { authSchema } from "../middlewares/joiLogin.middleware.js";
 
-
 const router = Router()
 
 router.route("/signup").post(
