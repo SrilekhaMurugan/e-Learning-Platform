@@ -45,7 +45,8 @@
     border: 5px solid #4c8bf5;
     color: #4c8bf5;
   }
-  
+
+
   .radio-button__input:checked + .radio-button__label {
     color: #4c8bf5;
   }
