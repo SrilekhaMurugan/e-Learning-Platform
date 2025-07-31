@@ -57,8 +57,6 @@ schedule: [{
     }
 }],
 
-
-
 },{timestamps:true})
 
 const course= mongoose.model('course',courseSchema)
