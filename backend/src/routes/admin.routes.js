@@ -32,4 +32,4 @@ router.route("/:adminID/approve/course/:courseID").post(authAdmin, approveCourse
 
 export default router;
 
-//testing
+// testing
