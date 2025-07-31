@@ -6,7 +6,6 @@ import { authTeacher } from "../middlewares/teacherAuth.middleware.js";
 
 const router = Router()
 
-
 router.route("/all").get(getCourse)
 
 router.route("/:coursename").get(getcourseTeacher)
