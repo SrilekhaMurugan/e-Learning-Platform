@@ -3,7 +3,6 @@ import "../Landing/Landing.css";
 import Mail from "../../Images/Meet-the-team.svg";
 import Header from '../Header/Header';
 
-
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
