@@ -9,6 +9,7 @@
   justify-content: center;
 }
 
+
 .main::-webkit-scrollbar {
   width: 0 !important;
 }
