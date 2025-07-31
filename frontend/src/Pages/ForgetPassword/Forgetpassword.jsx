@@ -72,5 +72,4 @@ const Forgetpassword = () => {
     </section>
   );
 };
-
 export default Forgetpassword;
