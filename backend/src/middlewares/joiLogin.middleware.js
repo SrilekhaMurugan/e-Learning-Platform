@@ -1,8 +1,6 @@
 import joi from "@hapi/joi"
 import { asyncHandler } from "../utils/asyncHandler.js"
 
-
-
 const authSchema = asyncHandler(async(req,_, next) =>{
 
     const schema = joi.object({
@@ -12,13 +10,9 @@ const authSchema = asyncHandler(async(req,_, next) =>{
     
     const result = await schema.validateAsync(req.body)
 
-
     req.user = result
     next()
 })
 
 
 export {authSchema}
-
-
-
