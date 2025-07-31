@@ -24,10 +24,6 @@ const Course = () => {
     // },[])
  
 
-
-
-
-
   const formatDay = (day) => {
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     return daysOfWeek[day];
