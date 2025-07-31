@@ -3,7 +3,6 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import crypto from "crypto"
 
-
 const studentSchema = new mongoose.Schema({
 
     Email:{
@@ -183,8 +182,6 @@ const studentDetailsSchema = new mongoose.Schema({
 }, {
     timestamps:true,
 })
-
-
 
 const student = mongoose.model("student",studentSchema)
 
