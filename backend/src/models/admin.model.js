@@ -2,7 +2,6 @@ import mongoose from "mongoose"
 import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
 
-
 const adminSchema =  new mongoose.Schema({
 
     username:{
@@ -22,7 +21,6 @@ const adminSchema =  new mongoose.Schema({
     },
 
 }) 
-
 
 adminSchema.pre("save", async function (next) {
     if(!this.isModified("password")) return next(); 
