@@ -155,7 +155,4 @@ const withdrawAmount = asyncHandler(async(req,res)=>{
   .json(new ApiResponse(200, {newTeacher}, "balance"))
   
 })
-
-
-
 export {coursePayment, getkey, coursePaymentConfirmation, teacherAmount, withdrawAmount}
