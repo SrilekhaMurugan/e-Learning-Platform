@@ -18,5 +18,4 @@ function Pending() {
     </>
   );
 }
-
 export default Pending;
