@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 
 const InputUpload = ({ label, placeholder,value,onChange}) => {
  
-
-
   return (
       <div>
       <label className='text-white ml-7 font-bold'>{label}</label>
