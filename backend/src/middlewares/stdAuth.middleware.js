@@ -22,7 +22,6 @@ const authSTD = asyncHandler(async(req,_,next) =>{
 
     req.Student = Student
     next()
-
     
 })
 
